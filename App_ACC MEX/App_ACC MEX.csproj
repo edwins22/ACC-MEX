@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Pages\Shared\Contacts\**" />
+    <Content Remove="Pages\Shared\Contacts\**" />
+    <EmbeddedResource Remove="Pages\Shared\Contacts\**" />
+    <None Remove="Pages\Shared\Contacts\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="wwwroot\Images\ACC MEX ORiGINAL.png" />
   </ItemGroup>
 
