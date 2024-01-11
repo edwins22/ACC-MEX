@@ -7,4 +7,8 @@
     <RootNamespace>App_ACC_MEX</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Images\ACC MEX ORiGINAL.png" />
+  </ItemGroup>
+
 </Project>
