@@ -1,1 +1,19 @@
-﻿
+﻿.texto_contactos /* Diseño del texto del boton contactos ubicado en el layout*/
+{
+    font: oblique bold 120% cursive; 
+    text-align: center;
+}
+
+.button_llamarahora /* Diseño del boton llamar ahora.*/
+{
+    width:150px;
+    height:50px;
+    background-color:aqua;
+    
+}
+.button_contactanos /* Diseño del boton contactanos.*/ {
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    color: aqua;
+}
