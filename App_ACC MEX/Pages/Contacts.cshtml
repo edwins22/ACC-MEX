@@ -1,10 +1,12 @@
 ﻿@page
 @using App_ACC_MEX.Pages.Shared
 @model ContactsModel
+
 @{
     ViewData["Title"] = "Contactos";
 }
 
+<link rel="stylesheet" href="~/Diseño/vistacontactos.css" asp-append-version="true">
 
     <div class="text-center">
         <h1 class="display-4">Contactanos</h1>
@@ -33,7 +35,7 @@
         <input type="text" name="Registro">  
     </div>
 
-    <input type="button">Enviar 
+    <input class="btnenviar" type="button" value="enviar">
 </div>
 
 <div>
@@ -61,9 +63,9 @@
 </div>
 
     <div>
-        <input type="button">Contactanos  
-        <br />
-        <input type="button">Llama Ahora 
+    <input class="button_contactanos" type="button" value="Contactanos">
+    
+    <input class="button_llamarahora" type="button" value="Llama Ahora">
    
         <a class="nav-link text-dark" asp-area="" asp-page="/Index">Pagina Principal</a>
     

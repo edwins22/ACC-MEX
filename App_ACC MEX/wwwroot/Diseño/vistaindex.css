@@ -26,6 +26,13 @@
    
 }
 
+
+.button_masinfo /* Diseño del boton llamar ahora.*/ {
+    width: 150px;
+    height: 50px;
+    background-color: darkcyan;
+}
+
 .button_contactanos /* Diseño del boton contactanos.*/ {
     width: 150px;
     height: 50px;
