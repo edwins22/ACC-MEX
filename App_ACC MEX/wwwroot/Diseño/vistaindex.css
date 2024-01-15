@@ -54,9 +54,11 @@
 }
 
 .imagenes_posicion{ /**/
-    width: 1300px;
-    height: 1000px;
+    width: 620px;
+    height: 1215px;
     border: black 5px solid;
+    margin-left:350px;
+    margin-right:50px;
     
 }
 
