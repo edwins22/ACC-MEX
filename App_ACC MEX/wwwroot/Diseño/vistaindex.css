@@ -33,7 +33,7 @@
     background-color: darkcyan;
 }
 
-.button_contactanos /* Diseño del boton contactanos.*/ {
+.button_contactanos /* Diseño del boton contactanos, se apliaca para todas las vistas.*/ {
     width: 150px;
     height: 50px;
     background-color: bisque;
@@ -42,7 +42,34 @@
     margin-right: 2000px
 }
 
-.slide { /*Codigo de carrusel*/
+.text_titulo{ /*Titulo de la vista principal*/
+    color: black;
+    line-height: 150%;
+    font-family: serif;
+    text-align: center;
+}
+
+.texto_nuestrosservicios{
+    text-align: center;
+}
+
+.imagenes_posicion{ /**/
+    width: 1300px;
+    height: 1000px;
+    border: black 5px solid;
+    
+}
+
+.imagenes_tabla { /*Imagenes que se encuentran en la vista principal que guian a las demas vistas.*/
+    position: center;
+    width: 300px;
+    height: 300px;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.slide { /*Codigo de carrusel***********************************/
     position: relative;
     box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.64);
     margin-top: 26px;
