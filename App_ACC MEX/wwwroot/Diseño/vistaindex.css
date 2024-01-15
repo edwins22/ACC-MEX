@@ -12,6 +12,10 @@
     margin-right: auto;
 }
 
+.fondo{
+    background-color:peachpuff;
+}
+
 .texto_contactos { /* Diseño del texto del boton contactos ubicado en el layout*/
 
     font: oblique bold 120% cursive;

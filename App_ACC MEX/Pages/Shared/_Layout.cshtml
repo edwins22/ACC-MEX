@@ -1,67 +1,80 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title> ACC MEX</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/App_ACC_MEX.styles.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/Diseño/vistaindex.css" asp-append-version="true"> 
-</head>
-<body>
-    <header>
-        <div>
-            <a name="telefonos">+52 0000000000 +52 00000000 </a>
-            <a name="gmail"> correo@gmail.com</a>
-        </div>
-    </header>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="/Index"><img width="100px" height="50px" src="~/images/acc mex original.png" /></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="texto_Softwareyconectiavidad">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/">Software y conectiavidad</a>
-                        </li>
-                        <li class="texto_Automatizacion">
-                            <a class="nav-link text-dark" asp-area="" asp-page="/">Automatizacion</a>
-                        </li>
-                        <li class="texto_contactos">
-                            <a class="nav-link text-dark" asp-area="" asp-page="Contacts/">Contactos</a>
-                        </li>
-                       
-                    </ul>
-                    <div >
-                        <input class="button_llamarahora" type="button" value="Llama Ahora">
-                    </div>    
-                </div>
-                
-                </div>
-        </nav>
-    </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
+﻿<div class="fondo">
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title> ACC MEX</title>
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/App_ACC_MEX.styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/vistaindex.css" asp-append-version="true">
+    </head>
+    <body>
+        <header>
+            <div>
+                <a name="telefonos">+52 0000000000 +52 00000000 </a>
+                <a name="gmail"> correo@gmail.com</a>
+            </div>
+        </header>
+        <header>
+            
+                <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
 
-    <footer class="border-top footer text-muted">
+                <div class="container">
+
+                        <a class="navbar-brand" asp-area="" asp-page="/Index"><img width="100px" height="50px" src="~/images/acc mex original.png" /></a>
+
+                    
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                    
+                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                            <ul class="navbar-nav flex-grow-1">
+                                <li class="texto_Softwareyconectiavidad">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/">Software y conectiavidad</a>
+                                </li>
+                                <li class="texto_Automatizacion">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="/">Automatizacion</a>
+                                </li>
+                                <li class="texto_contactos">
+                                    <a class="nav-link text-dark" asp-area="" asp-page="Contacts/">Contactos</a>
+                                </li>
+
+                            </ul>
+                            <div>
+                                <input class="button_llamarahora" type="button" value="Llama Ahora">
+                            </div>
+                        </div>
+                    </div>
+
+                  
+                </nav>
+            
+           
+        </header>
         <div class="container">
-            &copy; Diseñado por
-            &copy; 2024. ACC MEX, todos los derechos reservados <a></a>
+            <main role="main" class="pb-3">
+                @RenderBody()
+            </main>
         </div>
-    </footer>
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
+        <footer class="border-top footer text-muted">
+            <div class="container">
+                &copy; Diseñado por
+                &copy; 2024. ACC MEX, todos los derechos reservados <a></a>
+            </div>
+        </footer>
 
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
 </html>
+
+</div>
