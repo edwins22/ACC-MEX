@@ -1,4 +1,9 @@
-﻿.texto_Softwareyconectiavidad { /* Diseño del texto del boton Softwareyconectiavidad ubicado en el layout*/
+﻿.contactos_superior{ /**/
+    color: white;
+    text-align: center;
+}
+
+.texto_Softwareyconectiavidad { /* Diseño del texto del boton Softwareyconectiavidad ubicado en el layout*/
 
     font: oblique bold 120% cursive;
     margin-left: 200px;
@@ -12,8 +17,8 @@
     margin-right: auto;
 }
 
-.fondo{
-    background-color:peachpuff;
+.fondo {
+    background-image: radial-gradient(circle at 48.91% 62.44%, #040d30 0, #01062a 50%, #000024 100%);
 }
 
 .texto_contactos { /* Diseño del texto del boton contactos ubicado en el layout*/
@@ -47,7 +52,7 @@
 }
 
 .text_titulo{ /*Titulo de la vista principal*/
-    color: black;
+    color: white;
     line-height: 150%;
     font-family: serif;
     text-align: center;
@@ -55,6 +60,7 @@
 
 .texto_nuestrosservicios{
     text-align: center;
+    color: white;
 }
 
 .imagenes_posicion{ /**/
