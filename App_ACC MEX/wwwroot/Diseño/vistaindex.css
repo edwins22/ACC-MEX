@@ -20,6 +20,9 @@
 .fondo {
     background-image: radial-gradient(circle at 48.91% 62.44%, #040d30 0, #01062a 50%, #000024 100%);
 }
+.fondoo { /*para colocar fondo a la barra de navegacion*/
+    background-color: salmon;
+}
 
 .texto_contactos { /* Diseño del texto del boton contactos ubicado en el layout*/
 
