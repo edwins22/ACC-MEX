@@ -66,15 +66,6 @@
     color: white;
 }
 
-.imagenes_posicion{ /**/
-    width: 620px;
-    height: 1215px;
-    border: black 5px solid;
-    margin-left:350px;
-    margin-right:50px;
-    
-}
-
 .contenedor { /*para apregar texto dentro de la imagen*/
     position: relative;
     display: inline-block;
@@ -90,12 +81,11 @@
 
 .imagenes_tabla { /*Imagenes que se encuentran en la vista principal que guian a las demas vistas.*/
     position: center;
-    width: 300px;
+    width: 600px;
     height: 300px;
-    justify-content: center;
     padding: 10px;
     
-}
+/***********************************************************************************************************************/
 
 .slide { /*Codigo de carrusel***********************************/
     position: relative;
