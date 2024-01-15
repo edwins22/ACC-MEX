@@ -62,6 +62,19 @@
     
 }
 
+.contenedor { /*para apregar texto dentro de la imagen*/
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.texto-encima { /*para apregar texto dentro de la imagen*/
+    position: absolute;
+    top: 125px;
+    left: 125px;
+    color: white;
+}
+
 .imagenes_tabla { /*Imagenes que se encuentran en la vista principal que guian a las demas vistas.*/
     position: center;
     width: 300px;
