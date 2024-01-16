@@ -16,28 +16,39 @@
             <h4>Inicio --- Contactanos</h4>
         </div>
 
-    <div>
-        <div>
-            <label>Nombre Completo</label>
-            <input type="text" name="Registro">
+    <div class="contact-container">
+        <div class="google-maps">
+            <!-- Agrega aquí el enlace de Google Maps con el iframe -->
+            <iframe src="https://maps.google.com/maps?q=Calle%20Lib.%20Sur-Poniente%20802%2C%20Villas%20del%20Cimatario%2C%20Campestre%20Italiana%2C%2076087%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.%2C%20M%C3%A9xico&amp;
+            t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Calle Lib. Sur-Poniente 802, Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" aria-label="Calle Lib. Sur-Poniente 802, 
+            Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" " width="400" height="400" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
         </div>
 
-        <div>
-            <label>Telefono</label>
-            <input type="text" name="Registro">
-        </div>
+        <div class="contact-form">
+            <form method="post">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" class="form-control" required />
+                </div>
 
-        <div>
-            <label>Email</label>
-            <input type="text" name="Registro">
-        </div>
+                <div class="form-group">
+                    <label for="telefono">Telefono:</label>
+                    <input type="text" id="telefono" name="telefono" class="form-control" required />
+                </div>
 
-        <div>
-            <label>Mensaje</label>
-            <input type="text" name="Registro">
-        </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="form-control" required />
+                </div>
 
-        <input class="btnenviar" type="button" value="enviar">
+                <div class="form-group">
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary rounded-pill">Enviar mensaje</button>
+            </form>
+        </div>
     </div>
 
     <div>
@@ -60,7 +71,7 @@
         </ul>
     </div>
 
-    <div>
+    <div class="google_maps">
         <iframe loading="lazy" src="https://maps.google.com/maps?q=Calle%20Lib.%20Sur-Poniente%20802%2C%20Villas%20del%20Cimatario%2C%20Campestre%20Italiana%2C%2076087%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.%2C%20M%C3%A9xico&amp;t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Calle Lib. Sur-Poniente 802, Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" aria-label="Calle Lib. Sur-Poniente 802, Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México"></iframe>
     </div>
 
