@@ -55,6 +55,30 @@
     margin-left: 1000px;
     margin-right: auto
 }
+/**************************************************************************/
+.img_contenedor {
+    height: 900px;
+    width: 1500px;
+    margin-top: 50px;
+    
+    float:right;
+}
+
+.titulo_encima {
+    position: absolute;
+    top: 125px;
+    left: 100px;
+    color: white;
+    margin-left: 250px;
+    margin-top: 100px;
+}
+
+.img_titulo {
+    height: 800px;
+    width: 1700px;
+    text-align: center;  
+}
+/*************************************************************************/
 
 .text_titulo{ /*Titulo de la vista principal*/
     color: white;
@@ -79,7 +103,7 @@
 
 .imagenes_posicion { /* Dimensiones del contenedor de imagenes */
     width: 1300px;
-    height: 1225px;
+    height: 1300px;
     border: black 5px solid;
     background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
     margin-top: 30px;
