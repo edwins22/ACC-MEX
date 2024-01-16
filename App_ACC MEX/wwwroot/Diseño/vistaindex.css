@@ -44,6 +44,7 @@
     width: 150px;
     height: 50px;
     background-color: darkcyan;
+    margin-left:550px;
 }
 
 .button_contactanos /* Diseño del boton contactanos, se apliaca para todas las vistas.*/ {
@@ -51,8 +52,8 @@
     height: 50px;
     background-color: bisque;
     color: black;
-    margin-left: auto;
-    margin-right: 2000px
+    margin-left: 1000px;
+    margin-right: auto
 }
 
 .text_titulo{ /*Titulo de la vista principal*/
@@ -229,4 +230,12 @@ li:nth-child(6) .slide-circulo {
     font-family: 'Open Sans', sans-serif;
     z-index: 9999;
     text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.33), -1px 0px 2px rgba(255, 255, 255, 0);
-}/* termina codigo de carrusel*****************************************************/
+}
+
+.carrusel { /* color de fondo en carrusel */
+   background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
+}
+/* termina codigo de carrusel*****************************************************/
+.letraindex {
+    color: floralwhite;
+}

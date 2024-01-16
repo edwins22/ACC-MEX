@@ -1,7 +1,12 @@
 ﻿
 .btnenviar {
+    
     width: 150px;
     height: 50px;
     background-color: darkblue;
     color:white;
+}
+
+.letra{ /*es para aplicar color a la letra en la vista contactos*/
+    color:floralwhite;
 }
