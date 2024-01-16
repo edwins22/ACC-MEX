@@ -70,11 +70,19 @@
 
 /***********************************************************************************************************************/
 
+.contenedor_clientes {
+    width: 1300px;
+    height: 525px;
+    border: black 5px solid;
+    background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
+}
+
 .imagenes_posicion { /* Dimensiones del contenedor de imagenes */
     width: 1300px;
     height: 1225px;
     border: black 5px solid;
     background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
+    margin-top: 30px;
 }
 
 .contenedor { /*para apregar texto dentro de la imagen*/
@@ -236,6 +244,26 @@ li:nth-child(6) .slide-circulo {
    background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
 }
 /* termina codigo de carrusel*****************************************************/
+
 .letraindex {
+    color: floralwhite;
+}
+
+
+.area_finalpag { /* Dimensiones del contenedor final */
+    width: 1300px;
+    height: 400px;
+    border: black 5px solid;
+    background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
+    
+}
+
+.dimensiones_finales{
+    margin-top: 120px;
+    margin-left: 150px;
+    display: grid;  
+}
+
+.texto_final {
     color: floralwhite;
 }
