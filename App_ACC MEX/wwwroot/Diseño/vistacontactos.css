@@ -63,7 +63,22 @@
     margin-top: 40px;
 }
 
-.btn_contactanos{
-    margin-top: 20px;
-    left:200px;
+.prueba {
+    border: black 5px solid;
+    margin-top: 30px;
 }
+
+/* 3 botones de la vista contactos */
+.btn_contactanoscontacts {
+    width: 150px;
+    height: 50px;
+    background-color: bisque;
+    color: black;
+}
+
+.btn_llamarahora{
+    width: 150px;
+    height: 50px;
+    background-color: aqua;
+}
+/*********************************/
