@@ -11,15 +11,17 @@
     color:floralwhite;
 }
 
-/*El diseño del apartado de contacto con google maps*/
+.cont_map_form{ /* Contenedor del formulario y el mapa*/
+    margin-top: 50px;
+}
 
+/*El diseño del apartado de contacto con google maps*/
 .contact-container {
     display: flex;
     justify-content: space-between;
     max-width: 800px;
     margin: auto;
     float: left;
-    
 }
 
 .contact-form { /*dimensiones para el formulario*/
@@ -65,7 +67,7 @@
 
 .prueba {
     border: black 5px solid;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 /* 3 botones de la vista contactos */
@@ -74,11 +76,18 @@
     height: 50px;
     background-color: bisque;
     color: black;
+    margin-left: 100px;
 }
 
-.btn_llamarahora{
+.btn_llamarahora {
     width: 150px;
     height: 50px;
     background-color: aqua;
+    margin-left: 350px;
+}
+
+.link_inicio {
+    margin-left: 350px;
+    margin-right: 50px;
 }
 /*********************************/
