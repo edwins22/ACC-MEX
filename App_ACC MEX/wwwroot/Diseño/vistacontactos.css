@@ -18,15 +18,20 @@
     justify-content: space-between;
     max-width: 800px;
     margin: auto;
+    float: left;
+    
 }
 
-.contact-form {
-    width: 38%;
-    padding: 20px;
+.contact-form { /*dimensiones para el formulario*/
+    width: 350px;
+    height: 550px;
+    padding: 40px;
     background-color: dimgray;
     border: 1px solid #dee2e6;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-left: 20px;
+    
 }
 
 .contact-info {
@@ -36,6 +41,7 @@
     border: 1px solid #dee2e6;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+   
 }
 
 .btn-primary { /* Boton para enviar mensaje en la vista contactos del formulario*/
@@ -45,4 +51,19 @@
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
+    margin-top: 30px;
+}
+.mapa {
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.dom{
+    margin-left: 400px;
+    margin-top: 40px;
+}
+
+.btn_contactanos{
+    margin-top: 20px;
+    left:200px;
 }
