@@ -292,3 +292,7 @@ li:nth-child(6) .slide-circulo {
 .texto_final {
     color: floralwhite;
 }
+
+.menu_encabezado{
+    position: fixed;
+}

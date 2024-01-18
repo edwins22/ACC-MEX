@@ -11,51 +11,51 @@
         <link rel="stylesheet" href="~/Diseño/vistaindex.css" asp-append-version="true">
     </head>
     <body>
-        <header>
-            <div class="contactos_superior">
-                <a name="telefonos">+52 0000000000 +52 00000000 </a>
-                <a name="gmail"> correo@gmail.com</a>
-            </div>
-        </header>
-        <header>
+        <div>
+            <header>
+                <div class="contactos_superior">
+                    <a name="telefonos">+52 0000000000 +52 00000000 </a>
+                    <a name="gmail"> correo@gmail.com</a>
+                </div>
+            </header>
 
-            <nav class="fondoo navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3">
+        
+                <header>
+                    <nav class="fondoo navbar navbar-expand-sm navbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3">
 
-                <div class="container">
+                        <div class="container">
                                 
-                        <a class="navbar-brand" asp-area="" asp-page="/Index"><img width="100px" height="50px" src="~/images/sinfondo.png" /></a>
+                                <a class="navbar-brand" asp-area="" asp-page="/Index"><img width="100px" height="50px" src="~/images/sinfondo.png" /></a>
 
                     
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                                aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
+                                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
 
                     
-                        <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                            <ul class="navbar-nav flex-grow-1">
-                                <li class="texto_Softwareyconectiavidad">
-                                    <a class="nav-link text-white" asp-area="" asp-page="/">Software y conectiavidad</a>
-                                </li>
-                                <li class="texto_Automatizacion">
-                                    <a class="nav-link text-white" asp-area="" asp-page="/">Automatizacion</a>
-                                </li>
-                                <li class="texto_contactos">
-                                    <a class="nav-link text-white" asp-area="" asp-page="Contacts/">Contactos</a>
-                                </li>
+                                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                                    <ul class="navbar-nav flex-grow-1">
+                                        <li class="texto_Softwareyconectiavidad">
+                                            <a class="nav-link text-white" asp-area="" asp-page="/">Software y conectiavidad</a>
+                                        </li>
+                                        <li class="texto_Automatizacion">
+                                            <a class="nav-link text-white" asp-area="" asp-page="/">Automatizacion</a>
+                                        </li>
+                                        <li class="texto_contactos">
+                                            <a class="nav-link text-white" asp-area="" asp-page="Contacts/">Contactos</a>
+                                        </li>
 
-                            </ul>
-                            <div>
-                                <input class="button_llamarahora" type="button" value="Llama Ahora">
-                            </div>
-                        </div>
-                    </div>
+                                    </ul>
+                                    <div>
+                                        <input class="button_llamarahora" type="button" value="Llama Ahora">
+                                    </div>
+                                </div>
+                            </div>  
+                        </nav>
+                </header>
+        </div>
 
-                  
-                </nav>
-            
-           
-        </header>
         <div class="container">
             <main role="main" class="pb-3">
                 @RenderBody()
