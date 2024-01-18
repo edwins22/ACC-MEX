@@ -13,7 +13,7 @@
 }
 
 .cont_map_form{ /* Contenedor del formulario y el mapa*/
-    margin-top: 50px;
+    margin-top: 250px;
 }
 
 /*El diseño del apartado de contacto con google maps*/
@@ -67,7 +67,7 @@
 }
 
 .prueba {
-    border: black 5px solid;
+       
     margin-top: 50px;
 }
 

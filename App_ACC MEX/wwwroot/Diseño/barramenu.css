@@ -1,4 +1,4 @@
-﻿.menu_encabezado {
+﻿.menu_encabezado { /* Contiene los campos que se ubican en el encabezado, barra fija.*/
     position: fixed;
     border: black 5px solid;
     width: 2000px;
@@ -6,10 +6,12 @@
 }
 
 .titulo_contactoss {
+    border: darkblue 1px solid;
     width: 1300px;
-    height: 200px;
+    height: 1px;
 }
 
 .titulo_contactosss {
     margin-left: 550px;
+    margin-top: 150px;
 }

@@ -277,10 +277,9 @@ li:nth-child(6) .slide-circulo {
 .area_finalpag { /* Dimensiones del contenedor final */
     width: 1300px;
     height: 400px;
-    border: black 5px solid;
-    background-image: radial-gradient(circle at 52.88% 47.12%, #0f131e 0, #00081b 50%, #000019 100%);
+    border: black 1px solid;
+    background: #8eb1ca;
     margin-top: 40px;
-    
 }
 
 .dimensiones_finales{
