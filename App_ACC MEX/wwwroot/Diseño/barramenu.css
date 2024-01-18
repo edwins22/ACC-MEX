@@ -1,2 +1,15 @@
-﻿body {
+﻿.menu_encabezado {
+    position: fixed;
+    border: black 5px solid;
+    width: 2000px;
+    height: 100px;
+}
+
+.titulo_contactoss {
+    width: 1300px;
+    height: 200px;
+}
+
+.titulo_contactosss {
+    margin-left: 550px;
 }

@@ -76,7 +76,7 @@
 .img_titulo {
     height: 800px;
     width: 1600px;
-    text-align: center;  
+    text-align: center;
 }
 /*************************************************************************/
 
@@ -293,6 +293,3 @@ li:nth-child(6) .slide-circulo {
     color: floralwhite;
 }
 
-.menu_encabezado{
-    position: fixed;
-}

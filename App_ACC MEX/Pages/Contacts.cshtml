@@ -8,130 +8,129 @@
 
 <link rel="stylesheet" href="~/Diseño/vistacontactos.css" asp-append-version="true">
 
-    <div class="letra">
 
-        <div class="text-center">
-            <h1 class="display-10">Contactanos</h1>
-           
-        </div>
+    <div class="todo">
+        <div class="letra">
+    
+            <div class="titulo_contactoss">
+                <h1 class="titulo_contactosss">Contactanos</h1>
+            </div>
 
-    <div class="cont_map_form">
-        <table>
-            <tr>
-                <td>
-                <div class="contact-container ">
+            <div class="cont_map_form">
+                <table>
+                    <tr>
+                        <td>
+                            <div class="contact-container ">
+                                <div class="contact-form">
+                                    <form method="post">
+                                        <div class="form-group">
+                                            <label for="nombre">Nombre:</label>
+                                            <input type="text" id="nombre" name="nombre" class="form-control" required />
+                                        </div>
+                                        <br />
+                                        <div class="form-group">
+                                            <label for="telefono">Telefono:</label>
+                                            <input type="text" id="telefono" name="telefono" class="form-control" required />
+                                        </div>
+                                        <br />
+                                        <div class="form-group">
+                                            <label for="email">Correo electrónico:</label>
+                                            <input type="email" id="email" name="email" class="form-control" required />
+                                        </div>
+                                        <br />
+                                        <div class="form-group">
+                                            <label for="mensaje">Mensaje:</label>
+                                            <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+                                        </div>
 
-
-                    <div class="contact-form">
-                        <form method="post">
-                            <div class="form-group">
-                                <label for="nombre">Nombre:</label>
-                                <input type="text" id="nombre" name="nombre" class="form-control" required />
+                                        <button type="submit" class=" btn-primary rounded-pill">Enviar mensaje</button>
+                                    </form>
+                                </div>
                             </div>
-                            <br />
-                            <div class="form-group">
-                                <label for="telefono">Telefono:</label>
-                                <input type="text" id="telefono" name="telefono" class="form-control" required />
-                            </div>
-                            <br />
-                            <div class="form-group">
-                                <label for="email">Correo electrónico:</label>
-                                <input type="email" id="email" name="email" class="form-control" required />
-                            </div>
-                            <br />
-                            <div class="form-group">
-                                <label for="mensaje">Mensaje:</label>
-                                <textarea id="mensaje" name="mensaje" class="form-control" rows="4" required></textarea>
+                        </td>
+
+                        <td>
+                            <div class="dom letra">
+
+                                <h2>Domicilio</h2>
+
+                                <ul>
+                                    <li>
+                                        <span>Libramiento Sur Poniente 802</span>
+                                    </li>
+                                    <li>
+                                        <span>00000000</span>
+                                    </li>
+                                    <li>
+                                        <span>00000000</span>
+                                    </li>
+                                    <li>
+                                        <span>correo@gmail.com</span>
+                                    </li>
+                                </ul>
                             </div>
 
-                            <button type="submit" class=" btn-primary rounded-pill">Enviar mensaje</button>
-                        </form>
-                    </div>
+                            <div class="mapa">
+                                <div>
+                                    <!-- Agrega aquí el enlace de Google Maps con el iframe -->
+                                    <iframe src="https://maps.google.com/maps?q=Calle%20Lib.%20Sur-Poniente%20802%2C%20Villas%20del%20Cimatario%2C%20Campestre%20Italiana%2C%2076087%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.%2C%20M%C3%A9xico&amp;
+                                    t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Calle Lib. Sur-Poniente 802, Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" aria-label="Calle Lib. Sur-Poniente 802,
+                                    Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" width="1000" height="350" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
 
+                <!-- 3 botones de la vista-->
+            <div class="prueba">
+                <div>
+
+                    <button class="btn_contactanoscontacts" onclick="location.href=''">Contactanos</button>
+
+                    <button class="btn_llamarahora" onclick="location.href=''">Llama Ahora</button>
+
+                    <button class="link_inicio" onclick="location.href='/Index'">PP</button>
 
                 </div>
-                </td>
-                <td>
-                <div class="dom letra">
+            </div>
+            <!--******************************-->
 
-                    <h2>Domicilio</h2>
+            <div class="area_finalpag">
+                <div class="dimensiones_finales">
+                    <table>
+                        <tr>
+                            <td>
+                                <div>
+                                    <img src="~/images/acc mex original.png" />
+                                </div>
 
-                    <ul>
-                        <li>
-                            <span>Libramiento Sur Poniente 802</span>
-                        </li>
-                        <li>
-                            <span>00000000</span>
-                        </li>
-                        <li>
-                            <span>00000000</span>
-                        </li>
-                        <li>
-                            <span>correo@gmail.com</span>
-                        </li>
-                    </ul>
+                                <div class="texto_final">
+                                    <h2>Somos empresa mexicana</h2>
+                                    <p>Siempre vasandonos en nuestros valors</p>
+                                </div>
+                            </td>
+
+                            <td>
+                                <div class="texto_final">
+                                    <h3>Contactanos</h3>
+                                    <ul>
+                                        <li>
+                                            <span>+52 00000000</span>
+                                        </li>
+                                        <li>
+                                            <span>+52 00000000</span>
+                                        </li>
+                                        <li>
+                                            <span>correo@gmail.com</span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="mapa">
-                    <div>
-                        <!-- Agrega aquí el enlace de Google Maps con el iframe -->
-                        <iframe src="https://maps.google.com/maps?q=Calle%20Lib.%20Sur-Poniente%20802%2C%20Villas%20del%20Cimatario%2C%20Campestre%20Italiana%2C%2076087%20Santiago%20de%20Quer%C3%A9taro%2C%20Qro.%2C%20M%C3%A9xico&amp;
-                    t=m&amp;z=10&amp;output=embed&amp;iwloc=near" title="Calle Lib. Sur-Poniente 802, Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" aria-label="Calle Lib. Sur-Poniente 802,
-                    Villas del Cimatario, Campestre Italiana, 76087 Santiago de Querétaro, Qro., México" width="1000" height="350" style="border-radius: 10px;" allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-                </td>
-            </tr>
-        </table>
-    </div>
-
-        <!-- 3 botones de la vista-->
-    <div class="prueba">
-        <div>
-            
-            <button class="btn_contactanoscontacts" onclick="location.href=''">Contactanos</button>
-
-            <button class="btn_llamarahora" onclick="location.href=''">Llama Ahora</button>
-            
-            <button class="link_inicio" onclick="location.href='/Index'">Llévame a otro lado</button>
-
-            
+            </div>
         </div>
     </div>
-    <!--******************************-->
-
-    <div class="area_finalpag">
-        <div class="dimensiones_finales">
-            <table>
-                <tr>
-                    <td>
-                        <div>
-                            <img src="~/images/acc mex original.png" />
-                        </div>
-
-                        <div class="texto_final">
-                            <h2>Somos empresa mexicana</h2>
-                            <p>Siempre vasandonos en nuestros valors</p>
-                        </div>
-                    </td>
-
-                    <td>
-                        <div class="texto_final">
-                            <h3>Contactanos</h3>
-                            <ul>
-                                <li>
-                                    <span>+52 00000000</span>
-                                </li>
-                                <li>
-                                    <span>+52 00000000</span>
-                                </li>
-                                <li>
-                                    <span>correo@gmail.com</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
