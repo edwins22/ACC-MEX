@@ -87,7 +87,9 @@
 }
 
 .link_inicio {
-    margin-left: 350px;
-    margin-right: 50px;
+    width: 170px;
+    height: 50px;
+    margin-left: 300px;
+    background-color: bisque;
 }
 /*********************************/
