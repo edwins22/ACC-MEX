@@ -19,9 +19,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Pages\Quienes somos\" />
     <Folder Include="Pages\SyC\" />
-    <Folder Include="Pages\Automatización\" />
   </ItemGroup>
 
 </Project>
