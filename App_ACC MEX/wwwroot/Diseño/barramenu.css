@@ -15,3 +15,35 @@
     margin-left: 550px;
     margin-top: 150px;
 }
+
+/*************************************************************************/
+/* Drop down list de la barra superior */
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 10px 10px 0px white;
+    background-color: blue;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+}
+
+    .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+    }
