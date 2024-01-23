@@ -18,4 +18,10 @@
     <None Include="wwwroot\Images\ACC MEX ORiGINAL.png" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Pages\Quienes somos\" />
+    <Folder Include="Pages\SyC\" />
+    <Folder Include="Pages\Automatización\" />
+  </ItemGroup>
+
 </Project>
