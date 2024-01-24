@@ -3,16 +3,18 @@
     border: black 5px solid;
     width: 2000px;
     height: 100px;
+    
 }
 
 .titulo_contactoss {
     border: darkblue 1px solid;
     width: 1300px;
     height: 1px;
+    
 }
 
 .titulo_contactosss {
-    margin-left: 550px;
+    margin-left: 500px;
     margin-top: 150px;
 }
 
@@ -47,3 +49,10 @@
         color: #FFFFFF;
         background-color: #00A4BD;
     }
+
+.barra {
+    
+    width: 9em;
+    color: brown;
+}
+

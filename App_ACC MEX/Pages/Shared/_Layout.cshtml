@@ -28,7 +28,7 @@
             </header>
         
                 <header>
-                    <nav class="fondoo navbar navbar-expand-sm na   vbar-toggleable-sm navbar-light  border-bottom box-shadow mb-3">
+                    <nav class="fondoo navbar navbar-expand-sm navbar-toggleable-sm box-shadow mb-3">
 
                         <div class="container">
                                 
@@ -44,9 +44,10 @@
 
                                             <ul class="navbar-nav flex-grow-1">
                                                 <div class="dropdown">
-                                                <li class="texto_Softwareyconectiavidad">
-                                                    <a class="nav-link text-white" asp-area="" asp-page="/">Software y conectiavidad</a>
-                                                    <div class="dropdown-content">
+                                                <li class="texto_Softwareyconectiavidad ">
+                                                    <a class="nav-link text-white barra" asp-area="" asp-page="/">Software y conectiavidad</a>
+                                                    
+                                                    <div class="dropdown-content barra">
                                                         <a class="nav-link text-white" asp-area="" asp-page="/SolucionesIoT">Soluciones IoT flexibles</a>
                                                         <a class="nav-link text-white" asp-area="" asp-page="/ConectividadIndustrial5G">Conectividad industrial 5G</a>
                                                         <a class="nav-link text-white" asp-area="" asp-page="/SoftwareAdministrativo">Software administrativo</a>
@@ -57,7 +58,7 @@
 
                                         <div class="dropdown">
                                             <li class="texto_Automatizacion">
-                                                <a class="nav-link text-white" asp-area="" asp-page="/">Automatizacion</a>
+                                                <a class="nav-link text-white barra" asp-area="" asp-page="/">Automatizacion</a>
                                                 <div class="dropdown-content">
                                                     <a class="nav-link text-white" asp-area="" asp-page="/Solucionesdecontrolindustrial">Soluciones de control industrial</a>
                                                     <a class="nav-link text-white" asp-area="" asp-page="/Solucionesenvision">Soluciones en visión</a>
@@ -65,31 +66,35 @@
                                                 </div>
                                             </li>
                                         </div>
-
+                        
 
                                         <li class="texto_contactos">
                                             <a class="nav-link text-white" asp-area="" asp-page="Contacts/">Contactos</a>
                                         </li>   
 
-                                        <div class="dropdown">
-                                            <li class="">
-                                                <a class="nav-link text-white" asp-area="" asp-page="/">!Quienes somos¡</a>
-                                                <div class="dropdown-content">
-                                                    <a class="nav-link text-white" asp-area="" asp-page="/Mision">Mision</a>
-                                                    <a class="nav-link text-white" asp-area="" asp-page="/Vision">Vision</a>
-                                                    <a class="nav-link text-white" asp-area="" asp-page="/Valores">Valores</a>
-                                                    <a class="nav-link text-white" asp-area="" asp-page="/Politicadecalidad">Politica de calidad</a>
+                                        
 
-                                                </div>
-                                            </li>
-                                        </div>
+                                        
                                         </ul>
                         </div>
+                    <div>
+                        <input class="button_llamarahora" type="button" value="Llama Ahora">
+                    </div>
 
-                                    <div>
-                                        <input class="button_llamarahora" type="button" value="Llama Ahora">
-                                    </div> 
-                    </nav>
+
+                    <div class="dropdown texto_quienessomos">
+                            <li class="">
+                                <a class="nav-link text-white " asp-area="" asp-page="/">!Quienes somos¡</a>
+                                <div class="dropdown-content">
+                                    <a class="nav-link text-white" asp-area="" asp-page="/Mision">Misión</a>
+                                    <a class="nav-link text-white" asp-area="" asp-page="/Vision">Visión</a>
+                                    <a class="nav-link text-white" asp-area="" asp-page="/Valores">Valores</a>
+                                    <a class="nav-link text-white" asp-area="" asp-page="/Politicadecalidad">Politica de calidad</a>
+
+                                </div>
+                            </li>
+                        </div>
+                </nav>
                 </header>
         </div>
 

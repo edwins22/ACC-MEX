@@ -6,7 +6,7 @@
 .texto_Softwareyconectiavidad { /* Diseño del texto del boton Softwareyconectiavidad ubicado en el layout*/
 
     font: oblique bold 120% cursive;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-right: auto;
 }
 
@@ -17,6 +17,18 @@
     margin-right: auto;
     
 }
+.texto_contactos { /* Diseño del texto del boton contactos ubicado en el layout*/
+
+    font: oblique bold 120% cursive;
+    margin-left: auto;
+    margin-right: 100px;
+}
+
+.texto_quienessomos { /* Diseño del texto del boton contactos ubicado en el layout*/
+
+    font: oblique bold 120% cursive;
+    margin-left: 100px;
+}
 
 .fondo {
     background-image: radial-gradient(circle at 48.91% 62.44%, #040d30 0, #01062a 50%, #000024 100%);
@@ -25,18 +37,11 @@
     background-image: radial-gradient(circle at 46.65% 50.9%, #101730 0, #080c23 50%, #000017 100%);
 }
 
-.texto_contactos { /* Diseño del texto del boton contactos ubicado en el layout*/
-
-    font: oblique bold 120% cursive;
-    margin-left: auto;
-    margin-right: 200px;
-}
-
 .button_llamarahora /* Diseño del boton llamar ahora.*/ {
     width: 150px;
-    height: 50px;
+    height: 40px;
     background-color: aqua;
-   
+    margin-right: 80px;
 }
 
 
