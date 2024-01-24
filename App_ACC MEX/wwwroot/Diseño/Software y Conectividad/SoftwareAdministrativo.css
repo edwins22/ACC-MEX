@@ -1,0 +1,17 @@
+﻿.encabezado_SoftwareAdministrativo {
+    margin-top: 200px;
+    color: azure;
+    text-align: center;
+}
+
+.otro_SoftwareAdministrativo {
+    border: 1px solid #dee2e6;
+}
+
+.contenedor_SoftwareAdministrativo {
+    width: 1300px;
+    height: 1500px;
+    border: 1px solid #dee2e6;
+    margin-left: 0px;
+    margin-right: 100px;
+}

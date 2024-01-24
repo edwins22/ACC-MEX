@@ -10,10 +10,16 @@
         <link rel="stylesheet" href="~/App_ACC_MEX.styles.css" asp-append-version="true" />
         <link rel="stylesheet" href="~/Diseño/vistaindex.css" asp-append-version="true"/>
         <link rel="stylesheet" href="~/Diseño/barramenu.css" asp-append-version="true"/>
+        <link rel="stylesheet" href="~/Diseño/Automatizacion diseño/Solucionesdecontrolindustrial.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/Automatizacion diseño/Solucionesenrobotica.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/Software y Conectividad/SolucionesIoT.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/Software y Conectividad/ConectividadIndustrial5G.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/Software y Conectividad/SoftwareAdministrativo.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Diseño/Software y Conectividad/TrazabilidadIndustrial.css" asp-append-version="true" />
 		
-    
+    </head>
     <div>
-        <div class="menu_encabezado fondo">
+        <div class="menu_encabezado fondo encima">
             <header>
                 <div class="contactos_superior">
                     <a name="telefonos">+52 0000000000 +52 00000000 </a>
@@ -41,9 +47,10 @@
                                                 <li class="texto_Softwareyconectiavidad">
                                                     <a class="nav-link text-white" asp-area="" asp-page="/">Software y conectiavidad</a>
                                                     <div class="dropdown-content">
-                                                        <a href="/">Conectividad 5g</a>
-                                                        <a href="/">Software administrativo</a>
-                                                        <a href="">Trazabilidad industrial</a>
+                                                        <a class="nav-link text-white" asp-area="" asp-page="/SolucionesIoT">Soluciones IoT flexibles</a>
+                                                        <a class="nav-link text-white" asp-area="" asp-page="/ConectividadIndustrial5G">Conectividad industrial 5G</a>
+                                                        <a class="nav-link text-white" asp-area="" asp-page="/SoftwareAdministrativo">Software administrativo</a>
+                                                        <a class="nav-link text-white" asp-area="" asp-page="/TrazabilidadIndustrial">Tazabilidad industrial</a>
                                                     </div>
                                                 </li>
                                         </div>
@@ -52,6 +59,7 @@
                                             <li class="texto_Automatizacion">
                                                 <a class="nav-link text-white" asp-area="" asp-page="/">Automatizacion</a>
                                                 <div class="dropdown-content">
+                                                    <a class="nav-link text-white" asp-area="" asp-page="/Solucionesdecontrolindustrial">Soluciones de control industrial</a>
                                                     <a class="nav-link text-white" asp-area="" asp-page="/Solucionesenvision">Soluciones en visión</a>
                                                     <a class="nav-link text-white" asp-area="" asp-page="/Solucionesenrobotica">Soluciones en robotica</a>
                                                 </div>
@@ -67,19 +75,20 @@
                                             <li class="">
                                                 <a class="nav-link text-white" asp-area="" asp-page="/">!Quienes somos¡</a>
                                                 <div class="dropdown-content">
-                                                    <a class="nav-link text-white" href="/Pages/Quienes somos/Mision">Mision</a>
-                                                    <a href="/">Vision</a>
-                                                    <a href="">Valores</a>
-                                                    <a href="">Politica de calidad</a>
+                                                    <a class="nav-link text-white" asp-area="" asp-page="/Mision">Mision</a>
+                                                    <a class="nav-link text-white" asp-area="" asp-page="/Vision">Vision</a>
+                                                    <a class="nav-link text-white" asp-area="" asp-page="/Valores">Valores</a>
+                                                    <a class="nav-link text-white" asp-area="" asp-page="/Politicadecalidad">Politica de calidad</a>
+
                                                 </div>
                                             </li>
                                         </div>
                                         </ul>
-                                    </div>
+                        </div>
 
                                     <div>
                                         <input class="button_llamarahora" type="button" value="Llama Ahora">
-                                    </div>
+                                    </div> 
                     </nav>
                 </header>
         </div>
@@ -103,6 +112,6 @@
 
         @await RenderSectionAsync("Scripts", required: false)
     </div>
-</html>
+    </html>
 
 </div>

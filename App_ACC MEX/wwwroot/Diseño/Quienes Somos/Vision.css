@@ -1,0 +1,17 @@
+﻿.Encabezado_vision {
+    margin-top: 200px;
+    color: azure;
+    text-align: center;
+}
+
+.otro_vision {
+    border: 1px solid #dee2e6;
+}
+
+.contenedor_vision {
+    width: 1300px;
+    height: 1500px;
+    border: 1px solid #dee2e6;
+    margin-left: 0px;
+    margin-right: 100px;
+}
